@@ -1,0 +1,15 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome to the Claims Management System (CMCS)</h1>
+    <p class="lead">Manage and track lecturer claims for hours worked.</p>
+    <p>
+        <a asp-controller="Claims" asp-action="Index" class="btn btn-primary">View Claims</a>
+        <a asp-controller="Claims" asp-action="Create" class="btn btn-success">Create a New Claim</a>
+        <a class="nav-link" asp-area="" asp-controller="Claims" asp-action="Index">Manage Claims</a>
+
+    </p>
+</div>
+
